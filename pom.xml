@@ -3,22 +3,7 @@
   <groupId>com.staragile.testng</groupId>
   <artifactId>testng-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
-
-  <build>
-        <plugins>
-            <plugin>
-                <!-- Configure the Maven War Plugin to package the application as a WAR -->
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.2</version>
-                <configuration>
-                    <warName>my-web-app</warName>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-    
+  <packaging>war</packaging>  
   <dependencies>
 	  <!-- https://mvnrepository.com/artifact/junit/junit -->
 	<dependency>
